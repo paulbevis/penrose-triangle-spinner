@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js/lib/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body>
+
+<svg height="420" width="500" id="spinner" style="opacity: 0">
+
+  <polygon id="a1" class="cube cube-a" points="100,10 150,45 100,80 50,45" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="ta1" class="cube top-a a" points="100,10 150,45 100,80 50,45" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="i1" class="cube cube-i" points="100,100 150,135 100,170 50,135" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="ti1" class="cube top-i i" points="100,100 150,135 100,170 50,135" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="a2" class="cube cube-a" points="100,80 150,45 150,105 100,140" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sa2" class="cube side-a a" points="100,80 150,45 150,105 100,140" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="a3" class="cube cube-a" points="50,45 100,80 100,140 50,105" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fa3" class="cube front-a a" points="50,45 100,80 100,140 50,105" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+
+  <polygon id="b1" class="cube cube-b" points="160,55 210,90 160,125 110,90" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="tb1" class="cube top-b b" points="160,55 210,90 160,125 110,90" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="b2" class="cube cube-b" points="160,125 210,90 210,150 160,185" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sb2" class="cube side-b b" points="160,125 210,90 210,150 160,185" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="h1" class="cube cube-h" points="100,190 150,225 100,260 50,225" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="th1" class="cube top-h h" points="100,190 150,225 100,260 50,225" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="i2" class="cube cube-i" points="100,170 150,135 150,195 100,230" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="si2" class="cube side-i i" points="100,170 150,135 150,195 100,230" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="b3" class="cube cube-b" points="110,90 160,125 160,185 110,150" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fb3" class="cube front-b b" points="110,90 160,125 160,185 110,150" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="c1" class="cube cube-c" points="220,100 270,135 220,170 170,135" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="tc1" class="cube top-c c" points="220,100 270,135 220,170 170,135" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="c2" class="cube cube-c" points="220,170 270,135 270,195 220,230" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sc2" class="cube side-c c" points="220,170 270,135 270,195 220,230" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="c3" class="cube cube-c" points="170,135 220,170 220,230 170,195" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fc3" class="cube front-c c" points="170,135 220,170 220,230 170,195" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="d1" class="cube cube-d" points="280,145 330,180 280,215 230,180" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="td1" class="cube top-d d" points="280,145 330,180 280,215 230,180" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="d2" class="cube cube-d" points="280,215 330,180 330,240 280,275" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sd2" class="cube side-d d" points="280,215 330,180 330,240 280,275" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="d3" class="cube cube-d" points="230,180 280,215 280,275 230,240" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fd3" class="cube front-d d" points="230,180 280,215 280,275 230,240" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="e1" class="cube cube-e" points="220,190 270,225 220,260 170,225" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="te1" class="cube top-e e" points="220,190 270,225 220,260 170,225" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="e2" class="cube cube-e" points="220,260 270,225 270,285 220,320" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="se2" class="cube side-e e" points="220,260 270,225 270,285 220,320" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="e3" class="cube cube-e" points="170,225 220,260 220,320 170,285" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fe3" class="cube front-e e" points="170,225 220,260 220,320 170,285" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="f1" class="cube cube-f" points="160,235 210,270 160,305 110,270" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="tf1" class="cube top-f f" points="160,235 210,270 160,305 110,270" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="f2" class="cube cube-f" points="160,305 210,270 210,330 160,365" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sf2" class="cube side-f f" points="160,305 210,270 210,330 160,365" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="f3" class="cube cube-f" points="110,270 160,305 160,365 110,330" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="ff3" class="cube  front-f f" points="110,270 160,305 160,365 110,330" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="g1" class="cube cube-g" points="100,280 150,315 100,350 50,315" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="tg1" class="cube top-g g" points="100,280 150,315 100,350 50,315" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="g2" class="cube cube-g" points="100,350 150,315 150,375 100,410" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sg2" class="cube side-g g" points="100,350 150,315 150,375 100,410" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="g3" class="cube cube-g" points="50,315 100,350 100,410 50,375" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fg3" class="cube front-g g" points="50,315 100,350 100,410 50,375" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="h2" class="cube cube-h" points="100,260 150,225 150,285 100,320" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="sh2" class="cube side-h h" points="100,260 150,225 150,285 100,320" style="fill:white;stroke:purple;stroke-width:1" />
+
+  <polygon id="h3" class="cube cube-h" points="50,225 100,260 100,320 50,285" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fh3" class="cube front-h h" points="50,225 100,260 100,320 50,285" style="fill:white;stroke:purple;stroke-width:1" />
+
+
+  <polygon id="i3" class="cube cube-i" points="50,135 100,170 100,230 50,195" style="fill:white;stroke:purple;stroke-width:1" />
+  <polygon id="fi3" class="cube front-i i" points="50,135 100,170 100,230 50,195" style="fill:white;stroke:purple;stroke-width:1" />
+</svg>
+
+<script src="./js/lib/vendor/jquery-1.11.2.min.js"></script>
+<script src="js/lib/gsap/jquery.gsap.js"></script>
+<script src="js/lib/gsap/TweenLite.js"></script>
+<script src="js/lib/gsap/TweenMax.js"></script>
+<script src="js/lib/gsap/TimelineLite.js"></script>
+<script src="js/lib/gsap/TimelineMax.js"></script>
+<script src="js/lib/gsap/easing/EasePack.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
+
