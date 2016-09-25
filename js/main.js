@@ -1,6 +1,6 @@
 (function($) {
 
-  var timeLineMax = new TimelineMax({yoyo: true, repeat: -1});
+  var timeLineMax = new TimelineMax({repeat: -1});
   var cubes = $('.cubes'), cubeA = $('.a'), cubeB = $('.b'), cubeC = $('.c'), cubeD = $('.d'),
     cubeE = $('.e'), cubeF = $('.f'), cubeG = $('.g'), cubeH = $('.h'), cubeI = $('.i');
 
