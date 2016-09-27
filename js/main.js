@@ -6,7 +6,7 @@
 
   timeLineMax
     .set(spinner, {scale: 0.25, autoAlpha: 1})
-    .staggerFrom([cubeA, cubeB, cubeC, cubeD, cubeE, cubeF, cubeG, cubeH, cubeI], .4, {fill: 'red', autoAlpha: 0}, 0.4)
+    .staggerFrom([cubeA, cubeB, cubeC, cubeD, cubeE, cubeF, cubeG, cubeH, cubeI], 0.4, {fill: 'red', autoAlpha: 0}, 0.4)
 
 })(jQuery);
 
